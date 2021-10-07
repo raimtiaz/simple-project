@@ -1,0 +1,244 @@
+/* Responsive CSS */
+
+/* applies to x-large devices (large desktops, less than 1400px) */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .container {
+    max-width: 1140px;
+  }
+  .service .single-service {
+    width: 360px;
+  }
+  .about .about-left {
+    width: 68%;
+    margin-right: 2%;
+  }
+  .page .single-service {
+    width: 262px;
+  }
+  .gallery .single-gallery {
+    width: 272px;
+    height: 180px;
+    margin-right: 17px;
+  }
+}
+/* applies to large devices (desktops, less than 1200px) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+  .header .menu {
+    margin-top: 4px;
+  }
+  .service .single-service {
+    width: 306px;
+    margin-right: 20px;
+  }
+  .about .about-left {
+    width: 68%;
+    margin-right: 2%;
+  }
+
+  .page .single-service:nth-child(even),
+  .gallery .single-gallery:nth-child(even) {
+    margin-right: 0;
+  }
+  .page .single-service {
+    width: 470px;
+    margin-right: 20px;
+  }
+  .gallery .single-gallery {
+    width: 470px;
+    height: 250px;
+    margin-right: 20px;
+  }
+}
+/* applies to medium devices (tablets, less than 992px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    max-width: 720px;
+  }
+  .title h4 {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .service .single-service:nth-child(2) {
+    margin-right: 0;
+  }
+  .service .single-service:last-child {
+    width: 100%;
+  }
+  .service .single-service {
+    width: 350px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .about .about-left {
+    width: 68%;
+    margin-right: 2%;
+  }
+  .about .about-left h4,
+  .about .side-bar h4 {
+    font-size: 30px;
+  }
+  .page .single-service:nth-child(even),
+  .gallery .single-gallery:nth-child(even) {
+    margin-right: 0;
+  }
+  .page .single-service:last-child {
+    width: 350px;
+  }
+
+  .gallery .single-gallery {
+    width: 345px;
+  }
+
+  .footer-content {
+    font-size: 20px;
+  }
+}
+/* applies to small devices (landscape phones, less than 768px) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .container {
+    max-width: 520px;
+  }
+  .header .logo {
+    margin-left: 25%;
+  }
+  .page-banner-img {
+    height: 225px;
+  }
+  .page-banner-img h4 {
+    line-height: 225px;
+  }
+  .title h4 {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .service .single-service:nth-child(2) {
+    margin-right: 0;
+  }
+  .service .single-service:last-child {
+    width: 100%;
+  }
+  .service .single-service {
+    width: 255px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+
+  .about .about-left {
+    width: 68%;
+    margin-right: 2%;
+  }
+  .about .about-left h4,
+  .about .side-bar h4 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  .page-banner-img h4 {
+    font-size: 32px;
+    line-height: 225px;
+  }
+
+  .page .single-service:nth-child(even),
+  .gallery .single-gallery:nth-child(even) {
+    margin-right: 0;
+  }
+
+  .page .single-service:last-child {
+    width: 255px;
+  }
+
+  .gallery .single-gallery {
+    width: 255px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+  .contact-form textarea {
+    height: 134px;
+  }
+  .contact-address ul li {
+    font-size: 15px;
+    margin-bottom: 3px;
+  }
+  .map {
+    height: 300px;
+  }
+  .footer-content {
+    font-size: 20px;
+  }
+}
+/* applies to x-small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575px) {
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .header .logo {
+    margin-left: 15%;
+  }
+  .header .menu ul {
+    text-align: center;
+  }
+  .title h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .service .single-service {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .page-banner-img {
+    height: 225px;
+  }
+  .page-banner-img h4 {
+    font-size: 25px;
+    line-height: 225px;
+  }
+  .about .about-left {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .about .side-bar {
+    width: 100%;
+  }
+  .about .about-left h4,
+  .about .side-bar h4 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .about .side-bar ul li a {
+    font-size: 18px;
+  }
+  .gallery .single-gallery {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .contact-form,
+  .contact-address {
+    width: 100%;
+    padding: 0px;
+  }
+  .contact-form h4,
+  .contact-address h4 {
+    font-size: 20px;
+  }
+  .contact-form {
+    margin-bottom: 25px;
+  }
+  .contact-form textarea {
+    height: 155px;
+  }
+  .contact-address ul li {
+    font-size: 19px;
+    margin-bottom: 0px;
+  }
+  .map {
+    height: 220px;
+  }
+  .footer-content {
+    font-size: 18px;
+  }
+}
